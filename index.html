@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Hair Salon - Beleza e Estilo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <i class="fas fa-scissors"></i>
+                <span>New Hair Salon</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#profissionais" class="nav-link">Profissionais</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="">
+                <source src="/assets/video.mp4" type="video/mp4">
+            </video>
+            <div class="video-watermark">@sorm.jakub</div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Transforme Seu Visual</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Beleza, estilo e sofisticação em um só lugar</p>
+            <a href="#contato" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">Agende Agora</a>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Sobre Nós</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text" data-aos="fade-right">
+                    <h3>Excelência em Beleza</h3>
+                    <p>Há mais de 10 anos, o New Hair Salon oferece os melhores serviços de beleza e estética, combinando técnicas modernas com atendimento personalizado.</p>
+                    <p>Nossa equipe de profissionais altamente qualificados está pronta para realizar seus sonhos de beleza, com produtos premium e um ambiente acolhedor.</p>
+                    <div class="sobre-stats">
+                        <div class="stat-item glass-card">
+                            <i class="fas fa-award"></i>
+                            <h4>10+</h4>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat-item glass-card">
+                            <i class="fas fa-users"></i>
+                            <h4>5000+</h4>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                        <div class="stat-item glass-card">
+                            <i class="fas fa-star"></i>
+                            <h4>100%</h4>
+                            <p>Qualidade Garantida</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-image" data-aos="fade-left">
+
+                <img class="image-wrapper glass-card" src="assets/cabelo2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="servicos section" id="servicos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Oferecemos uma ampla gama de serviços para realçar sua beleza</p>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="servico-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Corte de Cabelo</h3>
+                    <p>Cortes modernos e personalizados para todos os estilos</p>
+                    <div class="servico-price">A partir de R$ 80</div>
+                </div>
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="servico-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Coloração</h3>
+                    <p>Técnicas avançadas de coloração e mechas</p>
+                    <div class="servico-price">A partir de R$ 150</div>
+                </div>
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="servico-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Tratamentos</h3>
+                    <p>Hidratação, reconstrução e nutrição capilar</p>
+                    <div class="servico-price">A partir de R$ 120</div>
+                </div>
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="servico-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Alisamentos</h3>
+                    <p>Progressivas, botox capilar e mais</p>
+                    <div class="servico-price">A partir de R$ 200</div>
+                </div>
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="servico-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Penteados</h3>
+                    <p>Penteados para eventos e ocasiões especiais</p>
+                    <div class="servico-price">A partir de R$ 100</div>
+                </div>
+                <div class="servico-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="servico-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Cuidados completos para suas unhas</p>
+                    <div class="servico-price">A partir de R$ 60</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profissionais Section -->
+    <section class="profissionais section" id="profissionais">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Profissionais especializados e apaixonados pelo que fazem</p>
+            </div>
+            <div class="profissionais-grid">
+                <div class="profissional-card glass-card" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="profissional-image">
+                        <img src="assets/cabelereira2.jpg" alt="Cabelereira">
+                    </div>
+                    <div class="profissional-info">
+                        <h3>Ana Paula Silva</h3>
+                        <p class="profissional-cargo">Hair Stylist Senior</p>
+                        <p class="profissional-desc">Especialista em coloração e cortes modernos com 12 anos de experiência</p>
+                        <div class="profissional-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profissional-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="profissional-image">
+                        <img src="assets/cabelereiro1.jpg" alt="Cabelereiro">
+                    </div>
+                    <div class="profissional-info">
+                        <h3>Carlos Mendes</h3>
+                        <p class="profissional-cargo">Barbeiro & Stylist</p>
+                        <p class="profissional-desc">Expert em cortes masculinos e degradês com acabamento impecável</p>
+                        <div class="profissional-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profissional-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="profissional-image">
+                        <img src="assets/cabelereira3.jpg" alt="Cabelereira">
+
+                    </div>
+                    <div class="profissional-info">
+                        <h3>Mariana Costa</h3>
+                        <p class="profissional-cargo">Colorista</p>
+                        <p class="profissional-desc">Especializada em técnicas de mechas e balayage de alta complexidade</p>
+                        <div class="profissional-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section class="galeria section" id="galeria">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Galeria</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Confira alguns dos nossos trabalhos</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <img src="assets/cabelo1.jpg" alt="">
+                </div>
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/cabelo2.jpg" alt="">
+                </div>
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/example.jpg" alt="">
+                </div>
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="0">
+                    <img src="assets/cabelo4.jpg" alt="">
+                </div>
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/cabelo5.jpg" alt="">
+                </div>
+                <div class="galeria-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/cabelo6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Entre em Contato</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Agende seu horário ou tire suas dúvidas</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info" data-aos="fade-right">
+                    <div class="info-item glass-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua XXXX, 123 - Centro<br>São Paulo, SP - CEP: 000000-000</p>
+                        </div>
+                    </div>
+                    <div class="info-item glass-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 9876-5432<br>(11) 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="info-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@newhairsalon.com.br<br>agendamento@newhairsalon.com.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item glass-card">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sexta: 9h às 20h<br>Sábado: 9h às 18h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form-wrapper" data-aos="fade-left">
+                    <div class="contato-form">
+                        <div id="formMessage" class="form-message"></div>
+                        <div class="form-group">
+                            <input type="text" id="nome" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="telefone" placeholder="Seu Telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="servico">
+                                <option value="">Selecione um Serviço</option>
+                                <option value="corte">Corte de Cabelo</option>
+                                <option value="coloracao">Coloração</option>
+                                <option value="tratamento">Tratamentos</option>
+                                <option value="alisamento">Alisamentos</option>
+                                <option value="penteado">Penteados</option>
+                                <option value="manicure">Manicure & Pedicure</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block" id="enviarBtn">Enviar Mensagem</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-scissors"></i>
+                        <span>New Hair Salon</span>
+                    </div>
+                    <p>Transformando beleza em arte há mais de 10 anos.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#profissionais">Profissionais</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123</p>
+                    <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
+                    <p><i class="fas fa-envelope"></i> contato@newhairsalon.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 New Hair Salon. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
